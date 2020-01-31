@@ -1,13 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
-    <p>hollo it's me !</p>
-    <img src="" alt="">
-</body>
+<html lang="fr">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portfolio</title>
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="logo"
+        src="image/74814947_406183750324302_8598747564243681280_o.jpg"
+        alt="logo"
+      />
+      <nav>
+        <a href=""
+          ><img class="down" src="image/home.png" alt="button-down" />Accueil</a
+        >
+        <a href="">A propos</a>
+        <a href="">Competence</a>
+        <a href="">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div id="button-down">
+          <img class="down" src="image/triangle.png" alt="button-down" />
+        </div>
+        <img src="image/mon-profile-1.png" alt="banniere-scroll" />
+      </section>
+      <h1>A propos</h1>
+      <hr class="seppropos" />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam neque
+        repellat voluptatem rerum. Quisquam repellendus delectus, eligendi
+        placeat accusantium aspernatur doloribus esse iste sapiente dolorem
+        totam nisi illo, veritatis facere!Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Magnam neque repellat voluptatem rerum. Quisquam
+        repellendus delectus, eligendi placeat accusantium aspernatur doloribus
+        esse iste sapiente dolorem totam nisi illo, veritatis facere!
+      </p>
+    </main>
+    <h1>Compétences</h1>
+    <div class="compet">
+      <section id="competence1">
+        <article class="comp">
+          <img src="image/html5.png" alt="banniere-scroll" />
+          <h3>html5</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+        <article class="comp">
+          <img src="image/css.png" alt="banniere-scroll" />
+          <h3>CSS3</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+        <article class="comp">
+          <img src="image/wordpress.png" alt="banniere-scroll" />
+          <h3>WORDPRESS</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+      </section>
+      <section id="competence2">
+        <article class="comp">
+          <img src="image/monitor.png" alt="banniere-scroll" />
+          <h3>UI</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+        <article class="comp">
+          <img src="image/ux.png" alt="banniere-scroll" />
+          <h3>UX</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+        <article class="comp">
+          <img src="image/research.png" alt="banniere-scroll" />
+          <h3>REFERENCEMENT</h3>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus
+            pariatur beatae voluptatibus quasi sunt ad nesciunt voluptatem optio
+            tenetur nulla officia, iusto sequi quisquam, necessitatibus quos sed
+            fuga eum mollitia!
+          </p>
+        </article>
+      </section>
+    </div>
+    <hr class="separate" />
+    <h1>Portfolio</h1>
+    <section id="portfolio">
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+      <article></article>
+    </section>
+    <aside></aside>
+    <footer>
+      <form id="myForm" method="post" action="">
+        <h2>UN PROBLEME, UNE SUGGESTION?</h2>
+        <input
+          name="text1"
+          id="text1"
+          type="text"
+          required
+          placeholder="E-mail"
+        />
+        <textarea
+          name="textarea2"
+          id="textarea2"
+          cols="18"
+          rows="5"
+          required
+          placeholder="Ecrivez votre message ..."
+        ></textarea>
+        <br /><input
+          class="check"
+          name="submit1"
+          type="submit"
+          value="Valider"
+        />
+      </form>
+      <div class="maps">
+        <iframe
+          width="700"
+          height="350"
+          src="https://maps.google.com/maps?width=720&amp;height=300&amp;hl=en&amp;q=205%20rue%20olivier%20de%20serres%2C%20carpentras+(carpentras)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
+          frameborder="0"
+          scrolling="no"
+          marginheight="0"
+          marginwidth="0"
+          ><a href="https://www.maps.ie/coordinates.html"
+            >gps coordinates</a>
+        </iframe>
+      </div>
+      <div class="contact">
+        <h2>Contact :</h2>
+        <ul>
+            <li><a href="mailto:d.sebastien@me.com">me contacter par mail !</a></li>
+            <li><a href="tel:+33677371303">me contacter par telephone !</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
 </html>
